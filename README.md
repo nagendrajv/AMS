@@ -7,4 +7,11 @@ I created this tool quickly in summer 2012 based on my experiences and ideas. I 
 
 Majority of my time went into collecting my ideas on what I need to accomplish and how the screens should like and creating a supporting database design.
 
-#ApplicationManagementSystem# Is the eclipse(JUNO) project in working condition.
+Development Environment
+- Eclipse JUNO
+- Tomcat 7.0
+- Java 1.7
+
+The only jar file used "mysql-connector-java-5.1.22-bin.jar" is part of WEB-INF/lib. Refer to the documentation\eclipse_libraries.png file for the libraries used in eclipse.
+
+
