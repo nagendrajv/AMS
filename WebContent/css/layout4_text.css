@@ -1,0 +1,118 @@
+
+/* MAIN CONTENT */
+.main-content h1.pagetitle {margin:0 0 0.4em 0; padding:0 0 2px 0; border-bottom:solid 7px rgb(225,225,225); font-family:"trebuchet ms",arial,sans-serif; color:rgb(100,100,100); font-weight:bold; font-size:220%;}
+.main-content h1.block {clear:both; margin:1.0em 0 0em 0; padding:2px 0 2px 2px; background:rgb(190,190,190); font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:220%;}
+.main-content h1 {clear:both; margin:1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(80,80,80); font-weight:normal; font-size:210%;}
+.main-content h1.orange {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:#FFBB00; font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:130%;}
+.main-content h1.grey {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:#938B8B; font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:130%;}
+.main-content h1.blue {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:#146CA1; font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:130%;}
+.main-content h1.green {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:#B5CC31; font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:130%;}
+
+.main-content h1.red {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:#F05656; font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:140%;}
+
+
+.main-content h2 {clear:both; margin:1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(80,80,80); font-weight:normal; font-size:170%;}
+.main-content h3 {clear:both; margin:-1.0em 0 0.5em 0; font-family:"trebuchet ms",arial,sans-serif; color:rgb(125,125,125); font-weight:normal; font-size:130%;}
+.main-content h1.side {clear:none;}
+.main-content h2.side {clear:none;}
+.main-content h3.side {clear:none;}
+
+.main-content h4 {margin:1.5em 0 1.0em 0; color:rgb(80,80,80); font-family:"trebuchet ms",arial,sans-serif; font-weight:normal; font-size:170%;}
+.main-content h5 {margin:1.5em 0 1.0em 0; color:rgb(80,80,80); font-family:"trebuchet ms",arial,sans-serif; font-size:140%;}
+.main-content h6 {margin:1.2em 0 0.2em 0; color:rgb(80,80,80); font-weight:bold; font-size:120%;}
+.main-content p {margin:0 0 1.0em 20px; line-height:1.0em; font-size:110%;}
+.main-content p.center {text-align:center;}
+.main-content p.right {text-align:right;}
+.main-content p.details {clear:both; margin:-0.25em 0 1.0em 0; line-height:1.0em; font-size:110%;}
+.main-content blockquote {clear:both; margin:0 30px 0.6em 30px; font-size:90%;}
+
+.main-content table {clear:both; width:650px; margin:0 0 0.2em 20px; table-layout: fixed; border-collapse:collapse; empty-cells:show; background-color:rgb(240,240,244);}
+.main-content table.small {clear:both; width:600px; margin:0 0 0.2em 20px; table-layout: fixed; border-collapse:collapse; empty-cells:show; background-color:rgb(240,240,244);}
+.main-content table caption {height:2.0em; padding:10px 10px 2px 1px; text-align:left; color:#146CA1; font-weight:bold; font-size:115%; cursor: pointer;}
+.main-content table th {height:2.0em; padding:2px 20px 2px 7px; border-left:solid 1px rgb(255,255,255); border-right:solid 1px rgb(255,255,255); border-top:solid 1px rgb(255,255,255); border-bottom:solid 1px rgb(255,255,255); background-color:rgb(225,225,225); text-align:left; color:rgb(80,80,80); font-weight:bold; font-size:110%;}
+.main-content table th.top {height:2.0em; padding:0 7px 0 7px; empty-cells:show; background-color:#938B8B; text-align:left; color:#fff; font-weight:bold; font-size:110%;}
+.main-content table td {height:2.0em; padding:2px 7px 2px 7px; border-left:solid 1px rgb(255,255,255); border-right:solid 1px rgb(255,255,255); border-top:solid 1px rgb(255,255,255); border-bottom:solid 1px rgb(255,255,255); background-color:rgb(225,225,225); text-align:left; font-weight:normal; color:rgb(80,80,80); font-size:110%;}
+
+.main-content table th.nobg {height:2.0em; padding:0 7px 0 7px; empty-cells:show; background-color:#fff; font-weight:bold; font-size:110%;}
+.main-content table td.nobg {height:2.0em; padding:0 7px 0 7px; empty-cells:show; background-color:#fff; text-align:left; font-size:110%;}
+
+
+.main-content table.clear {clear:both; width:650px; margin:0 0 0 0; table-layout: fixed; border-collapse:collapse; empty-cells:show;}
+.main-content table.clear th {height:2.0em; padding:0 0px 0 0px; empty-cells:show; background-color:#fff; text-align:left; font-weight:bold; font-size:110%;}
+.main-content table.clear td {height:2.0em; padding:0 0px 0 0px; empty-cells:show; background-color:#fff; text-align:left; font-size:110%;}
+
+
+p.caption {clear:both; margin:0.5em 0 2.0em 20px; text-align:left; color:rgb(80,80,80); font-size:110%;}
+
+
+.mytable {clear:both; width:650px; margin:0 0 0.2em 20px; table-layout: fixed; border-collapse:collapse; empty-cells:show; }
+.mytable td {height:2.5em; padding:2px 7px 2px 7px; font-weight:normal; color:rgb(80,80,80); font-size:110%;}
+.mytable td a {display:block; float:right; padding:2px 0px 2px 0px; color:#069 ; text-decoration:none;}
+.mytable td a:hover {text-decoration:none; color:rgb(125,125,125);}
+
+.main-content ul {list-style:none; margin:0.5em 0 1.0em 0;}
+.main-content ul li {margin:0 0 0.2em 2px; padding:0 0 0 12px; background:url(../images/bg_bullet_full_1.gif) no-repeat 0 0.5em; line-height:1.4em; font-size:120%;}
+.main-content ol {margin:0.5em 0 1.0em 20px !important /*Non-IE6*/; margin:0.5em 0 1.0em 25px /*IE6*/;}
+.main-content ol li {list-style-position:outside; margin:0 0 0.2em 0; line-height:1.4em; font-size:120%;}
+
+/* MAIN SUBCONTENT */
+.main-subcontent h1 {clear:both; margin:0 0 10px 0; padding:4px 10px 3px 10px; background-color:rgb(190,190,190); font-family:"trebuchet ms",arial,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:130%;}
+.main-subcontent h1.grey {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:rgb(190,190,190); font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:130%;}
+.main-subcontent h1.green {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:rgb(160,214,81); font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:130%;}
+.main-subcontent h1.blue {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:#146CA1; font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:130%;}
+.main-subcontent h1.orange {clear:both; margin:0 0 5px 0; padding:4px 10px 3px 10px; background-color:rgb(232,177,13); font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(255,255,255); font-weight:bold; font-size:130%;}
+ /* Note: h2 non-existent, to make HTML-code interchangeable between 'main-navigation' and 'main-subcontent' */
+.main-subcontent h3 {clear:both; margin:1.0em 10px 0.5em 10px; color:rgb(80,80,80); font-weight:bold; font-size:110%;}
+.main-subcontent p {clear:both; margin:0 10px 1.0em 10px; color:rgb(80,80,80); line-height:1.3em; font-size:110%;}
+.main-subcontent p.center {text-align:center;}
+.main-subcontent p.right {text-align:right;}
+
+.main-subcontent ul {list-style:none; margin:0.5em 10px 1.0em 10px;}
+.main-subcontent ul li {margin:5px 0 0.2em 2px; padding:0 0 0 11px; background:url(../images/bg_bullet_full_1.gif) no-repeat 0 0.4em; line-height:1.2em; font-size:110%;}
+.main-subcontent ol {margin:0.5em 10px 1.0em 30px !important /*Non-IE6*/; margin:0.5em 10px 1.0em 35px /*IE6*/;}
+.main-subcontent ol li {list-style-position:outside; margin:0 0 0.4em 0; font-size:110%;}
+
+.main-subcontent .loginform {width:160px; margin:0 10px 0 10px;}
+.main-subcontent .loginform p {clear:both; margin:0; padding:0;}
+.main-subcontent .loginform fieldset {width:160px; border:none;}
+.main-subcontent .loginform label.top {float:left; width:125px; margin:0 0 2px 0; font-size:110%;}
+.main-subcontent .loginform label.right {float:left; width:125px; margin:5px 0 0 0; padding:0 0 0 3px; /*IE6*/; font-size:110%;}
+.main-subcontent .loginform input.field {width:158px; margin:0 0 5px 0; padding:0.1em 0 0.2em 0 !important /*Non-IE6*/; padding:0.2em 0 0.3em 0 /*IE6*/; border:solid 1px rgb(175,175,175); font-family:"trebuchet ms",arial,helvetica,sans-serif; font-size:110%;}
+.main-subcontent .loginform input.checkbox {float:left; margin:5px 0 0 0 !important /*Non-IE6*/; margin:2px 0 0 -3px /*IE6*/; border:none;}
+.main-subcontent .loginform input.button {float:left; width:5.0em; margin:10px 0 5px 0; padding:1px; background:rgb(80,80,80); border:solid 1px rgb(150,150,150); text-align:center; font-family:"trebuchet ms",arial,helvetica,sans-serif; color:rgb(150,150,150); font-size:110%;}
+.main-subcontent .loginform input.button:hover {cursor:pointer; border:solid 1px rgb(80,80,80); background:rgb(220,220,220); color:rgb(80,80,80);}
+
+.main-subcontent .loginform input.field:hover{border-color: #B7B7B7; border-width: 1px;}
+.main-subcontent .loginform input.field:focus{border-color: #4D90FE; border-width: 1px;}
+
+
+.main-content select {
+    border: 1;
+    color: #000000;
+    font-size: 11px;
+    *font-weight: bold;
+    padding: 1px 8px;
+    border-color: #B7B7B7;
+    width: 158px;
+}
+
+
+.main-content input.field {width:158px; margin:0 0 5px 0; padding:0.1em 0 0.2em 0 !important /*Non-IE6*/; padding:0.2em 0 0.3em 0 /*IE6*/; border:solid 1px rgb(175,175,175); font-family:"trebuchet ms",arial,helvetica,sans-serif; font-size:110%;}
+.main-content input.field:hover{border-color: #B7B7B7; border-width: 1px;}
+.main-content input.field:focus{border-color: #4D90FE; border-width: 1px;}
+
+
+/********************/
+/*  COMMON CLASSES  */
+/********************/
+.main img {clear:both; float:left; margin:3px 10px 7px 0; padding:1px; border:1px solid rgb(150,150,150);}
+.main img.center {clear:both; float:none; display:block; margin:0 auto; padding:1px; border:1px solid rgb(150,150,150);}
+.main img.right {clear:both; float:right; margin:3px 0 7px 10px; padding:1px; border:1px solid rgb(150,150,150);}
+
+.main a {color:rgb(70,122,167); font-weight:bold; text-decoration:none;}
+.main-content h1 a {color:rgb(70,122,167); font-weight:normal; text-decoration:none;}
+.main a:hover {color:rgb(42,90,138); text-decoration:underline;}
+.main a:visited {color:rgb(42,90,138);}
+
+.main a img {border:solid 1px rgb(150,150,150);}
+.main a:hover img {border:solid 1px rgb(220,220,220);}

@@ -1,0 +1,80 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+    "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<jsp:include page="head.jsp"></jsp:include>
+
+<body>
+
+	<!-- Main Page Container -->
+	<div class="page-container">
+
+		<jsp:include page="header.jsp"></jsp:include>
+
+		<!-- B. MAIN -->
+		<div class="main">
+
+			<!-- B.1 MAIN CONTENT -->
+			<div class="main-content">
+
+					<div class="subcontent-unit-border-blue-nobg">
+						<h1 class="blue">Quick Search</h1>
+						<div class="searchform">
+							<form action="searchResults.jsp" method="post">
+								&nbsp;&nbsp;&nbsp;<input type="text" name="searchCriteria"
+									value="Enter search criteria..." onClick="this.value=''" />&nbsp;&nbsp;
+								<select name='searchType'>
+									<option value='Resource'>Resource</option>
+									<option value='Application'>Application</option>
+									<option value='Technology'>Technology</option>
+								</select> &nbsp;&nbsp;&nbsp; <input type="submit" name="button"
+									value="Go!" />
+							</form>
+						</div>
+					</div>
+
+					<div class="subcontent-unit-border-blue-nobg">
+						<h1 class="blue">Applications</h1>
+						&nbsp;&nbsp;&nbsp;
+						<a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, 'anylinkmenu1')">WeCare</a>, &nbsp;
+						<a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, 'anylinkmenu2')">MPers</a>, &nbsp;
+						<a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, 'anylinkmenu3')">SID V2</a>, &nbsp;
+						
+						<a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, 'anylinkmenu1')"><span>Customer Central Portal</span></a>, &nbsp;
+						<a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, 'anylinkmenu1')"><span>SCMA</span></a>, &nbsp;
+						<a href="#" onClick="return clickreturnvalue()" onMouseover="dropdownmenu(this, event, 'anylinkmenu3')">CPC</a>, &nbsp;
+					</div>
+
+			</div>
+			<!-- main content -->
+
+		</div>
+	</div>
+
+<div id="anylinkmenu1" class="anylinkcss">
+	<a href="http://www.dynamicdrive.com/">Info </a>
+	<a href="http://www.javascriptkit.com">Releases</a>
+	<a href="http://www.codingforums.com">Edit Info</a>
+</div>
+
+<div id="anylinkmenu2" class="anylinkcss">
+	<a href="http://www.dynamicdrive.com/">Info </a>
+	<a href="http://www.javascriptkit.com">Releases</a>
+	<a href="http://www.codingforums.com">Edit Info</a>
+</div>
+
+<div id="anylinkmenu3" class="anylinkcss">
+	<a href="http://www.dynamicdrive.com/">Info </a>
+	<a href="http://www.javascriptkit.com">Releases</a>
+	<a href="http://www.codingforums.com">Edit Info</a>
+</div>
+
+</body>
+</html>
+
+<script>
+	document.getElementById('home').className  = "active";
+</script>
